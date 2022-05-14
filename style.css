@@ -1,0 +1,429 @@
+@charset "utf-8";
+
+
+
+
+
+#wrapper {
+	
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+a:link { color: blueviolet }
+a:hover { color: chartreuse}
+a:active { color: maroon }
+a:visited {color: chartreuse}
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: auto;
+
+}
+
+* {
+    box-sizing: border-box;
+    vertical-align: text-bottom;
+    text-align: justify;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: #9CB4C8;
+    margin: 0px;
+	background-color: #071928;
+	
+}
+
+
+header {
+	width: 100%;
+	background-color: #211B1B;
+	
+}
+
+header img {
+	position: center;
+	max-width: 1200px;
+	height: 80%;
+	padding-top: 20px;
+	
+}
+
+nav {
+	width: 100%;
+	height: auto;
+	position: center;
+	
+}
+
+nav ul {
+	width: 100%;
+	display: inline;
+	text-align: center;
+    list-style-type: none;
+	background-color: #B3B3B3;
+    float: left;
+}
+
+
+  nav li {
+	padding: 100px;
+	float: left;
+    width: 24.99%;
+}
+	
+  nav a  {
+	
+    color: #002367;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.4em;
+    text-decoration: none;
+
+}
+	
+	
+
+
+	
+
+
+.container1 {
+	float: left;
+	margin: 100px   auto;
+	width: 50%;
+	padding: 4px;
+	
+	
+}
+
+
+.container2 {
+	float: left;
+	margin: 100px   auto;
+	width: 50%;
+	padding: 4px;
+
+}
+
+
+
+.container3 {
+	float: left;
+	margin: 100px   auto;
+	width: 50%;
+	padding: 4px;
+	
+	
+}
+
+
+.container4 {
+	float: left;
+	margin: 100px   auto;
+	width: 50%;
+	padding: 4px;
+
+}
+
+
+
+
+.slika {
+	float: left;
+	width: 400px;
+	height: auto;
+	padding: 0 10px 0 0;
+}
+.text {
+	
+	text-align: justify;
+	font-size: 1.0em;
+	
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	position: relative;
+	
+}
+.header-responsive {
+	width: 100%;
+	height: auto;
+	positio: relative;
+}
+.poravnanje{
+	
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	
+}
+
+.adjustment {
+	width: 68%;
+	height: auto;
+	
+}
+.text2{
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+.box {
+	
+	float: left;
+	margin: 100px auto 20px auto;
+	padding: 14px;
+	
+}
+.big-slika {
+	
+	float: left;
+	height: auto;
+	padding: 0 10px 0 0;
+	width: 40%;
+}
+
+
+ 
+.png-slika {
+	
+	margin-top: 50px;
+	margin-bottom: 100px;
+	float: left;
+	
+}
+.ikone {
+	
+	float: right;
+	padding: 5px;;
+	
+	
+}
+
+
+.ende {
+	padding-top: 50px;
+
+}
+
+ /* Ovdje pocinje models a zavrsava home */
+
+
+
+
+
+.naslov {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.text4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	
+	
+}
+
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 6px;
+
+
+}
+
+
+	
+
+.column img {
+	width: 100%;
+	height: auto;
+}
+
+/* Ovdje pocinje Gallery a zavrsava models */
+
+
+.gallery {
+  float: left;
+  width: 24.99%;
+  padding: 6px;
+
+
+}
+
+
+	
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+	
+
+.korekcija {
+	text-align: center;
+	padding: 30px;
+	
+}
+.pomjeranje {
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.4em;
+	padding: 25px;
+}
+
+
+
+
+@media screen and (max-width:1040px){
+	
+
+	.adjustment {
+	width: 60%;
+	height: auto;
+	
+}
+	
+	
+.text {
+	
+	text-align: justify;
+	font-size: 0.9em;
+}
+	
+	
+	nav li {
+	padding: 50px;
+	float: left;
+    width: 24.99%;
+}
+	
+	.text2{
+	font-size: 0.9em;
+}
+
+	.big-slika {
+	
+	float: left;
+	height: auto;
+	max-width: 60% ;
+	padding: 0 10px 0 0;
+}
+
+	/* kraj responsiva za index u velicini 1040px :)) */
+	
+	.text4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 0.8em;
+	
+		
+}
+	
+	
+	.naslov {
+	text-align: center;
+	padding-top: 40px;
+}
+	
+	
+	
+	/* kraj responsiva za models u velicini 1040px :)) */
+	
+	
+	
+	
+	
+	
+}
+
+@media screen and (max-width:855px){
+	
+	
+	
+	.text {
+	
+	text-align: justify;
+	font-size: 0.9em;
+}
+	
+	
+	.text2{
+	font-size: 0.9em;
+}
+
+	
+	.container1 {
+	float: none;
+	
+	
+}
+
+
+.container2 {
+	float: none;
+	
+
+}
+
+
+
+.container3 {
+	float: none;
+	
+	
+}
+
+
+.container4 {
+	float: none;
+	
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* kraj responsiva za index u velicini 855px :)) */
+
+	
+	.text4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 0.9em;
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
